@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "settimana": 1,
+    "data": 1782856800,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 2,
+    "settimana": 1,
+    "data": 1783029600,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 3,
+    "settimana": 2,
+    "data": 1783461600,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 4,
+    "settimana": 2,
+    "data": 1783548000,
+    "tipologia": "Pomeriggio",
+    "start": 810,
+    "end": 960,
+    "durata": 2.5
+  },
+  {
+    "id": 5,
+    "settimana": 2,
+    "data": 1783634400,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 6,
+    "settimana": 3,
+    "data": 1783893600,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 7,
+    "settimana": 3,
+    "data": 1784066400,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 8,
+    "settimana": 3,
+    "data": 1784239200,
+    "tipologia": "Pomeriggio",
+    "start": 810,
+    "end": 960,
+    "durata": 2.5
+  },
+  {
+    "id": 9,
+    "settimana": 4,
+    "data": 1784671200,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 10,
+    "settimana": 4,
+    "data": 1784757600,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 11,
+    "settimana": 4,
+    "data": 1784844000,
+    "tipologia": "Pomeriggio",
+    "start": 810,
+    "end": 960,
+    "durata": 2.5
+  },
+  {
+    "id": 12,
+    "settimana": 5,
+    "data": 1785103200,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 13,
+    "settimana": 5,
+    "data": 1785276000,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 14,
+    "settimana": 5,
+    "data": 1785362400,
+    "tipologia": "Pomeriggio",
+    "start": 810,
+    "end": 960,
+    "durata": 2.5
+  },
+  {
+    "id": 15,
+    "settimana": 6,
+    "data": 1785708000,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 16,
+    "settimana": 6,
+    "data": 1785880800,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 17,
+    "settimana": 6,
+    "data": 1786053600,
+    "tipologia": "Pomeriggio",
+    "start": 810,
+    "end": 960,
+    "durata": 2.5
+  },
+  {
+    "id": 18,
+    "settimana": 7,
+    "data": 1786312800,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  },
+  {
+    "id": 19,
+    "settimana": 7,
+    "data": 1786485600,
+    "tipologia": "Mattina",
+    "start": 570,
+    "end": 780,
+    "durata": 3.5
+  }
+]

@@ -1,0 +1,95 @@
+body{
+    font-family: Helvetica;
+    color:#356086;
+    width:90%;
+    margin-left:5%;
+}
+h1, p{
+    text-align: center;
+}
+h1 {
+    font-size:20pt;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 15pt;
+    margin-top:6vh;
+}
+p {
+    margin-top:0px;
+    color:#565656;
+    font-style: italic;
+
+}
+hr {
+    color: #356086;
+    margin-bottom:4vh;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+#summarytable td {
+    background-color: #f8fafd;
+    color:#495969;
+    border-color:#a9b2b9;
+    border-width:1px;
+    border-style: solid;
+    text-align: left;
+    padding:13px;
+}
+
+#summarytable * {
+    margin:0px;
+}
+#monte_ore td{
+    background-color: #eaf2f8;
+}
+#monte_ore .right {
+    font-weight: 800;
+}
+
+#summarytable {
+    width:100%;
+}
+
+#summarytable .left {
+    color:#1f4e79;
+    font-weight: 800;
+    width:30%;
+}
+
+#table{
+    width: 100%;
+}
+#table td {
+    text-align:center;
+    margin:0px;
+    border-color: #eaf2f8;
+    border-width:1px;
+    border-style:solid;
+    padding:10px;
+    border-radius:3px;
+}
+
+#table .tablehead td{
+    background-color: #1f4e79;
+    color:#e8edf1;
+    width:20%;
+    font-weight: 700;
+    text-align:center;
+    padding:13px;
+    border-width: 0px;
+    border-radius: 0;
+}
+
+#table .sett{
+    background-color:#f4f7f9;
+}
+
+.erased{
+    background-color: rgb(255, 122, 122);
+}
+.done{
+    background-color: rgba(130, 255, 99);
+}
