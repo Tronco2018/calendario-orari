@@ -47,7 +47,6 @@ async function check_for_warning() {
     for (const e of erased) {
         let element  = parseInt(e);
         if (date-element <= 604800 && date-element > -604800){
-            console.log("showing");
             const span = document.getElementById("data_annullata");
             if (span == null) return;
             span.innerText = convert_date(element);
@@ -57,7 +56,6 @@ async function check_for_warning() {
             return;
         }
         else {
-            console.log("hidden");
             const warning = document.getElementById("warning");
             if (warning == null) return;
             warning.classList.add("hidden");
