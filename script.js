@@ -12,6 +12,10 @@ function convert_date(data) {
     return formatted;
 }
 
+function get_today_date() {
+    return Math.floor(parseInt(Date.now())/1000);
+}
+
 function convert_single(element) {
     const minuti = element % 60;
     const ore = (element-minuti)/60;
@@ -30,6 +34,35 @@ async function is_erased(data) {
         if (data == element) return true;
     };
     return false;
+}
+
+async function get_erased() {
+    const ress = await fetch('./erased.json');
+    return await ress.json();
+}
+
+async function check_for_warning() {
+    let erased = await get_erased(); // JSON
+    const date = parseInt(get_today_date());
+    for (const e of erased) {
+        let element  = parseInt(e);
+        if (date-element <= 604800 && date-element > -604800){
+            console.log("showing");
+            const span = document.getElementById("data_annullata");
+            if (span == null) return;
+            span.innerText = convert_date(element);
+            const warning = document.getElementById("warning");
+            if (warning == null) return;
+            warning.classList.remove("hidden");
+            return;
+        }
+        else {
+            console.log("hidden");
+            const warning = document.getElementById("warning");
+            if (warning == null) return;
+            warning.classList.add("hidden");
+        }
+    }
 }
 
 function is_expired(date) {
@@ -64,9 +97,9 @@ async function display_data() {
         const d = `<tr>
                     <td class="sett">Settimana ${element.settimana}</td>
                     <td ${tdStyle}>${convert_date(element.data)}</td>
-                    <td>${element.tipologia}</td>
-                    <td>${convert_fascia(element.start, element.end)}</td>
-                    <td>${element.durata} ore</td>
+                    <td ${tdStyle}>${element.tipologia}</td>
+                    <td ${tdStyle}>${convert_fascia(element.start, element.end)}</td>
+                    <td ${tdStyle}>${element.durata} ore</td>
                     </tr>
                     `
         table.insertAdjacentHTML('afterbegin', d);
@@ -96,3 +129,4 @@ async function display_summary() {
 }
 
 display_summary();
+check_for_warning();

@@ -38,7 +38,6 @@ table {
     text-align: left;
     padding:13px;
 }
-
 #summarytable * {
     margin:0px;
 }
@@ -92,4 +91,45 @@ table {
 }
 .done{
     background-color: rgba(130, 255, 99);
+}
+
+.avviso{
+    background-color:#E9D502;
+    border-color:black;
+    border-width:3px;
+    border-style:dashed;
+    margin-top:4vh;
+    color:black;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avviso p {
+    color:black;
+    font-style: normal;
+}
+
+.avviso span {
+    font-weight: bold;
+}
+
+.avviso div {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height:100%;
+}
+
+img {
+    padding-top:10px;
+    height:30px;
+}
+
+.hidden {
+    display:none;
 }
